@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="359.0" prefWidth="405.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.editContractController">
+   <children>
+      <GridPane prefHeight="221.0" prefWidth="325.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <VBox.margin>
+            <Insets left="40.0" right="40.0" />
+         </VBox.margin>
+         <children>
+            <JFXTextField fx:id="fullLawyerName" promptText="ФИО адвоката" />
+            <JFXTextField fx:id="fullClientName" promptText="ФИО клиента" GridPane.rowIndex="1" />
+            <JFXTextField fx:id="priceField" promptText="Стоимость" GridPane.rowIndex="4" />
+            <JFXDatePicker fx:id="dateStart" prefHeight="25.0" prefWidth="330.0" promptText="Дата начала контракта" GridPane.rowIndex="2" />
+            <JFXDatePicker fx:id="dateEnd" prefWidth="330.0" promptText="Дата конца контракта" GridPane.rowIndex="3" />
+         </children>
+      </GridPane>
+      <HBox alignment="CENTER_RIGHT" prefHeight="72.0" prefWidth="405.0" spacing="20.0">
+         <children>
+            <JFXButton onAction="#ok" prefWidth="60.0" text="Ок" />
+            <JFXButton onAction="#cancel" prefHeight="31.0" prefWidth="84.0" text="Отмена">
+               <HBox.margin>
+                  <Insets right="30.0" />
+               </HBox.margin>
+            </JFXButton>
+         </children>
+      </HBox>
+   </children>
+</VBox>

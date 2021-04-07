@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="External">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jfoenix-8.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mysql-connector-java-8.0.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/commons-collections4-4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/xmlbeans-3.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/poi-4.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/poi-scratchpad-4.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/poi-ooxml-4.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/poi-ooxml-schemas-4.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/controlsfx-8.40.14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/poi-excelant-4.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/commons-compress-1.18.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

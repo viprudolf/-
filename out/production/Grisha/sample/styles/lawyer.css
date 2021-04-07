@@ -1,0 +1,9 @@
+#aboutArea .input-line, .input-focused-line {
+    visibility: false;
+}
+#oldAbout .input-line, .input-focused-line {
+    visibility: false;
+}
+.dot {
+    -fx-mark-color: #0f9d58;
+}
